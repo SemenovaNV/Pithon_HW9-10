@@ -4,7 +4,7 @@ from pprint import pprint
 import datetime
 from telegram.ext import Updater, CommandHandler
 
-updater = Updater('5862320588:AAGx_C7GXq7db_Dz4yXnbb8RrwufFzdkLw4')
+updater = Updater('Ваш токен')
 token_weather = '41c4d74afd3054cd442f9199c10eefe6'
 
 def Get_weather(city, token_weather):
