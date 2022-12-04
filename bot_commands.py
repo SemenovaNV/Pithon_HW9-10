@@ -8,7 +8,7 @@ import datetime
 from main import Get_weather, token_weather
 from spy import *
 
-updater = Updater('5862320588:AAGx_C7GXq7db_Dz4yXnbb8RrwufFzdkLw4', use_context=True)
+updater = Updater('Ваш токен', use_context=True)
 dispatcher = updater.dispatcher
 
 def hi_command(update: Update, context: CallbackContext):
